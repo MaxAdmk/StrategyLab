@@ -1,0 +1,12 @@
+{
+  "output_strategy": "console",
+  "kafka_config": {
+    "bootstrap_servers": "localhost:9092",
+    "topic": "air_quality"
+  },
+  "redis_config": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0
+  }
+}
